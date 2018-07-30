@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSaB", "DSaB\DSaB.csproj", "{6427B54B-3D44-4491-B582-531AB8CECB9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6427B54B-3D44-4491-B582-531AB8CECB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6427B54B-3D44-4491-B582-531AB8CECB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6427B54B-3D44-4491-B582-531AB8CECB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6427B54B-3D44-4491-B582-531AB8CECB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F0E5AC0-6EF5-4C08-BEA1-394DC2F2C495}
+	EndGlobalSection
+EndGlobal

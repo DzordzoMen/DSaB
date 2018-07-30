@@ -1,0 +1,10 @@
+C:\Users\neipr\source\repos\DSaB\DSaB\bin\Debug\DSaB.exe.config
+C:\Users\neipr\source\repos\DSaB\DSaB\bin\Debug\DSaB.exe
+C:\Users\neipr\source\repos\DSaB\DSaB\bin\Debug\DSaB.pdb
+C:\Users\neipr\source\repos\DSaB\DSaB\obj\Debug\DSaB.csprojAssemblyReference.cache
+C:\Users\neipr\source\repos\DSaB\DSaB\obj\Debug\DSaB.csproj.CoreCompileInputs.cache
+C:\Users\neipr\source\repos\DSaB\DSaB\obj\Debug\DSaB.exe
+C:\Users\neipr\source\repos\DSaB\DSaB\obj\Debug\DSaB.pdb
+C:\Users\neipr\source\repos\DSaB\DSaB\bin\Debug\Newtonsoft.Json.dll
+C:\Users\neipr\source\repos\DSaB\DSaB\bin\Debug\Newtonsoft.Json.xml
+C:\Users\neipr\source\repos\DSaB\DSaB\obj\Debug\DSaB.csproj.CopyComplete
