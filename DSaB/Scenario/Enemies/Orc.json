@@ -1,0 +1,22 @@
+{
+  "orc":[
+    {
+      "hp":80,
+      "attack":10,
+      "drop":[
+        {
+          "item":"Ząb orka",
+          "attribute":null
+        },{
+          "item":"Kanapka",
+          "attribute":"Leczy 20hp",
+          "hp":20
+        },{
+          "item":"Miecz orka",
+          "attribute":"Obrażenia 10",
+          "attack":10
+        }
+      ]
+    }
+  ]  
+}

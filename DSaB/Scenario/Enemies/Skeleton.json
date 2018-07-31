@@ -1,0 +1,21 @@
+{
+  "skeleton":[
+    {
+      "hp":50,
+      "attack":10,
+      "drop":[
+        {
+          "item":"Kość szkieletu",
+          "attribute":null
+        },{
+          "item":"But szkieletu",
+          "attribute":null
+        },{
+          "item":"Maź szkieleta",
+          "attribute":"Leczy 5hp",
+          "hp":5
+        }
+      ]
+    }
+  ]
+}

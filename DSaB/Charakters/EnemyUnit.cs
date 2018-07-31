@@ -25,6 +25,8 @@ namespace DSaB.Charakters {
 
   class Items {
     public string name { get; set; }
-    public string attribute { get; set; }
+    public string attribute { get; set; } = null;
+    public int attack { get; set; } = null;
+    public int hp { get; set; } = null;
   }
 }
