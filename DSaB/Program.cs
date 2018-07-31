@@ -15,7 +15,7 @@ namespace DSaB {
 
 
       while(tourNumber != 9) {
-        read.ReturnText(tourNumber);
+        read.ReturnText(tourNumber, myCharacter);
         move.MoveOptions();
         tourNumber++;
       }
