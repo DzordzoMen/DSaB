@@ -1,0 +1,14 @@
+{
+  "Miecz przeznaczenia":[
+    {
+      "demage":50,
+      "description":"Magiczny miecz znany z wielu gier"
+    }
+  ],
+  "Kanapka boga":[
+    {
+      "health":50,
+      "description":"Kanapka stworzona przez samego boga, chodzą pogłoski, że może uleczyć nawet śmiertelne rany"
+    }
+  ]
+}
