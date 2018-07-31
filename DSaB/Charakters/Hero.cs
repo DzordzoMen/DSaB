@@ -20,13 +20,18 @@ namespace DSaB.Charakters {
         }
       }
     }
-    // pokazywanie hp i ataku 
+
     public void AddToEquipment(string item) {
       if (HowManyItemsIsInEq(equipment.ToArray()) < 3) {
         equipment.Add(item);
       } else {
         Console.WriteLine("Twój ekwipunek jest pełny.");
       }
+    }
+
+    public void ShowAttributes() {
+      Console.WriteLine("Punkty życia: " + Hero.Health);
+      Console.WriteLine("Obrażenia: " + Hero.Attack);
     }
 
     private int HowManyItemsIsInEq(string[] equipment) {
