@@ -14,7 +14,7 @@ namespace DSaB.Charakters {
       this.AttackPower = attackPower;
     }
 
-    public void GetDemage(int demage) {
+    public void GetDemage(double demage) {
       Health -= demage;
     }
   }

@@ -1,0 +1,1 @@
+{"enemy":[{"orc":[{"hp":20,"attack":10,"drop":[{"item":"kanapka","attribute":"Ulecz 20hp"},{"item":"kość","attribute":null},{"item":"ząb","attribute":null}]}]},{"szkielet":[{"hp":10,"attack":5,"drop":[{"item":"kość","attribute":null},{"item":"miecz","attribute":"ustaw atak na 30"}]}]}]}

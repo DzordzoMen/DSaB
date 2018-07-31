@@ -20,7 +20,7 @@ namespace DSaB.Charakters {
         }
       }
     }
-
+    // pokazywanie hp i ataku 
     public void AddToEquipment(string item) {
       if (HowManyItemsIsInEq(equipment.ToArray()) < 3) {
         equipment.Add(item);
@@ -35,6 +35,12 @@ namespace DSaB.Charakters {
         if (equipment[i] != null) itemsInEq++;
       }
       return itemsInEq;
+    }
+
+    public void GameOver() {
+      Console.WriteLine("Game over!");
+      Console.ReadKey();
+      System.Environment.Exit(0);
     }
   }
 }

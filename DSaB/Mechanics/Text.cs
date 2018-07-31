@@ -12,46 +12,6 @@ namespace DSaB.Mechanics {
     }
 
     /*
-    public void TourThree() {
-      Console.WriteLine("Widzisz jakąś postać w ciemnościach, mała, świecą mu się oczy, może to Marek, wysłali go ");
-      Console.WriteLine("na ostatniej imprezie po alkohol, nie to niemożliwe on był wyższy, ciekawe co się z nim stało. ");
-      Console.WriteLine("Mniejsza, muszę iść dalej, mam misję do wykonania, ale co zrobić z tą postacią, ");
-      Console.WriteLine("przypominasz sobie tę memy które czytałeś na wykładach “Pierwsza rzecz po twojej lewej ");
-      Console.WriteLine("stronie będzie twoją bronią podczas ataku zombie”. Wyciągasz ręke chwytasz pierwszy ");
-      Console.WriteLine("przedmiot jaki napotkasz, gazeta, chyba jakiś świerszczyk,  nie jest tak, źle zwinę w rulon i");
-      Console.WriteLine("broń idealna, na samym końcu jest twarz jakiejś modelki, czy to Sasha Grey? Nazwę Cię, ");
-      Console.WriteLine("“Pałka penetracji”, nazwa adekwatna do wyglądu.");
-      Console.ForegroundColor = ConsoleColor.Green;
-      Console.WriteLine("Pałka penetracji dodana do ekwipunku atak: 20pkt");
-      attackPoints = 20; // attack hero
-      Console.ForegroundColor = ConsoleColor.Gray;
-    }
-
-
-    public void TourSeven() { // po walce
-      Console.WriteLine("Niby prawiczek, ale zawsze wiedziałeś, że jest w tobie moc. Lata pucowania rakiety nie ");
-      Console.WriteLine("poszły na marne. Pora zebrać nagrodę za pokonanie tego niegodziwego stwora, zawsze jak ");
-      Console.WriteLine("grałeś w gry to zbieranie przedmiotów z przeciwnika wyglądało bardzo łatwo, przecież w ");
-      Console.WriteLine("real’u musi to wyglądać podobnie. Czas zacząć, jak do tego się zabrać, może ma coś w ");
-      Console.WriteLine("ubraniach, pierwsza kieszeń, coś lepkiego, zostawie to tam, zaglądasz do drugiej, pusta, ");
-      Console.WriteLine("może w środku kurtki będzie coś wartościowego. Podnosisz kawałek kurtki i wkładasz ręke ");
-      Console.WriteLine("do środka, macasz z obrzydzeniem, przecież to ork jak można takie coś dotykać, matka go ");
-      Console.WriteLine("pewnie puściła w koszyku z nurtem rzeki. Czujesz coś w środku to chyba kawałek jedzenia, ");
-      Console.WriteLine("zawsze coś. Wyciągasz kawałek kanapki, wygląda dobrze, zostawie na później.");
-      Console.ForegroundColor = ConsoleColor.Green;
-      Console.WriteLine("Zdobyłeś kanapkę z wnętrza orka, dziwnie pachnie i wygląda jakby była pokryta kurzem, ale ");
-      Console.WriteLine("regeneruje zdrowie do 100%. I zapewnia nieświeży oddech, jesteś studentem więc nic nie zmieni");
-      Console.ForegroundColor = ConsoleColor.Gray;
-    }
-
-    public void TourEight() {
-      Console.WriteLine("Czas wyruszyć dalej, zostawiasz swojego poległego przeciwnika za sobą, po przejściu ");
-      Console.WriteLine("kilkunastu metrów, uświadamiasz sobie, że ta piwnica jest większa niż się mogło wydawać.");
-      Console.WriteLine("Pewnie jesteś już blisko swojego celu, widzisz jak coś świeci na końcu korytarza, gdzie ja ");
-      Console.WriteLine("jestem. Zawsze w filmach mówili by nie iść w stronę światła, ale jak się cofniesz to tylko ");
-      Console.WriteLine("zostaniesz wyśmiany przez innych, a to gorsze, raz się żyje idę. ");
-    }
-
     public void TourNine() { // walka 1
       Console.WriteLine("Gdy zbliżasz się do żródła światła zauważąsz, że to lodówka, pewnie w środku niej będzie to ");
       Console.WriteLine("po co Cię tu wysłali. Podchodzisz i widzisz, że coś jej pilnuje, chyba to cerber, ale cel ");

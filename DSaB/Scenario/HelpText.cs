@@ -2,7 +2,7 @@
 
 namespace DSaB.Scenario {
   public class HelpText {
-    public List<HelpTextData> tour{ get; set; }
+    public List<HelpTextData> tour { get; set; }
   }
 
   public class HelpTextData {
