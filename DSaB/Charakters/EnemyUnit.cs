@@ -12,12 +12,12 @@ namespace DSaB.Charakters {
     public EnemyUnit(int health, int attack) : base(health, attack) {
     }
 
-    public bool EnemyDropItem(EnemyUnit enemy) {
+    public bool EnemyDropItem() {
       if (enemy.drop.Count != 0) return true;
       return false;
     }
 
-    public Items ItemFromEnem(EnemyUnit enemy) {
+    public Items ItemFromEnem() {
       return enemy.drop;
     } 
 

@@ -34,7 +34,7 @@ namespace DSaB.Mechanics {
     private void CheckWhoWin(EnemyUnit enemy, Hero hero) {
       if (HealthEqualZero(enemy)) {
         Console.WriteLine("Brawo wygrałeś");
-        // sprawdzanie czy cos wyleciało z przeciwnika
+        if (enemy.EnemyDropItem()) Console.WriteLine("Z przeciwnika wyleciały przedmioty: " + enemy.ItemFromEnem().toString()); // to jest object
       }
 
       if (HealthEqualZero(hero)) hero.GameOver();
