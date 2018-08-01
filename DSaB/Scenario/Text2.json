@@ -1,0 +1,17 @@
+{
+	"tour":[
+		{
+			"text":"Podczas podróźy przez lochy zostajesz zaatakowany przez obrzydliwego orka. Monstrum ma jakiś czerwony znak na ramieniu,\ndo tego ten głupkowaty wyraz twarzy i do tego skromny ubiór z wieloma kolcami.",
+			"enemy":"Orc"
+		},{
+			"text":"Gdy przechadzasz się radośnie po lochu dostrzegasz jakiś ruch w ciemnośći i słyszysz dziwny stukot.\nGdy usiłujesz naświetlić dalszą drogę swoją pochodnia wyskakuje na ciebie szkielet\nrobisz bardzo ubogi przewrót i wyciągasz swoją broń, prawdziwe tango walki dopiero się rozpoczyna",
+			"enemy":"Skeleton"
+		},{
+			"text":"Stąpając po posadzce stawiasz nogę na butelce która wydaje głośny dźwięk *TRZASK*,\nnaglę z daleka słyszysz głośny ryk *ROAR*, coś zbliża się w twoją strone, jest bardzo szybkie i wielkie,\nzastanawiasz się jakie stworzenie przy takich rozmiarach może być, aż tak szybkie\nnagle z mroku korytarzy wyłania się wielki pysk Manticoty, gdy zdajesz sobie sprawę\nz czym masz doczynienia, przechodzą cię dreszcze i jedyne co ci pozostaje to walka.",
+			"enemy":"Manticota"
+		},{
+			"text":"Przechadzając się przez korytarze tego zapadłego lochu, zauważasz coś nabazgranego na ścianie,\nwygląda jak poezja prosych ludzi którzy musieli tutaj mieszkać w ubiegłych latach,\nczytając tajemnuczy tekst uświadamiasz sobie, że to zwykły przepis na alkohol,\nodziwo to bardzo dobry przepis, lepiej to gdzieś zapisać.",
+			"enemy":null
+		}
+	]
+}

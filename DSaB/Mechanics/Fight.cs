@@ -59,5 +59,7 @@ namespace DSaB.Mechanics {
         if(CheckIfDead(hero)) break;
       }
     }
+    // metoda TryEskape - ucieczka z walki mała szansa
+    // i teraz bomba - randomowe eventy z wyborami gg.
   }
 }
