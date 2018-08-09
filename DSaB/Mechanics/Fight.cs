@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DSaB.Charakters;
 
 namespace DSaB.Mechanics {
@@ -22,44 +18,54 @@ namespace DSaB.Mechanics {
       }
     }
 
-    private bool CheckIfDead(Object target) {
-      if (target.Health == 0) return true;
-      return false;
+    private bool CheckIfDead(Hero target) {
+      return target.Health <= 0;
+    }
+
+    private bool CheckIfDead(EnemyUnit target) { // bylo tak, ze sprawdzal czy jest 0 i dawal true, a jak nie to false
+      return target.Health <= 0;
     } 
 
-    private double SetAttack(Object target) {
+    private double SetAttack(Hero target) {
       return Attack(target.AttackPower);
     }
 
-    private void CheckWhoWin(EnemyUnit enemy, Hero hero) {
+    private double SetAttack(EnemyUnit target) {
+      return Attack(target.AttackPower);
+    }
+
+    private void CheckWhoWin(EnemyUnit enemy, Hero hero) { // potem? TODO
       if (HealthEqualZero(enemy)) {
         Console.WriteLine("Brawo wygrałeś");
-        if (enemy.EnemyDropItem()) Console.WriteLine("Z przeciwnika wyleciały przedmioty: " + enemy.ItemFromEnem().toString()); // to jest object
+        if (enemy.EnemyDropItem()) Console.WriteLine("Z przeciwnika wyleciały przedmioty: " + enemy.ItemFromEnemy().Name); // to jest object
       }
 
       if (HealthEqualZero(hero)) hero.GameOver();
     }
 
-    private bool HealthEqualZero(Object target) {
-      if (target.Health == 0) return true;
-      return false;
+    private bool HealthEqualZero(Hero target) {
+      return target.Health <= 0;
     }
 
-    public void FightBeetween(EnemyUnit enemy, Hero hero) {
-      double heroDemage = null;
-      double enemyDemage = null;
+    private bool HealthEqualZero(EnemyUnit target) {
+      return target.Health <= 0;
+    }
+
+    public void FightBeetween(EnemyUnit enemy, Hero hero)
+    {
       while (true) {
-        heroDemage = SetAttack(hero);
+        double heroDemage = SetAttack(hero);
         Console.WriteLine("Atakujesz za " + heroDemage);
         enemy.GetDemage(heroDemage);
         if(CheckIfDead(enemy)) break;
-        enemyDemage = SetAttack(enemy);
-        Console.WriteLine(enemy + " atakuje ciebie za " + enemyDemage); // do enemy dodać nazwę TODO
+        double enemyDemage = SetAttack(enemy);
+        Console.WriteLine(enemy.Name + " atakuje ciebie za " + enemyDemage); // do enemy dodać nazwę TODO
         hero.GetDemage(enemyDemage);
         if(CheckIfDead(hero)) break;
       }
+      CheckWhoWin(enemy, hero);
     }
-    // metoda TryEskape - ucieczka z walki mała szansa
+    // metoda TryEskape - ucieczka z walki mała szansa i jak sie nie uda to tracisz ruch
     // i teraz bomba - randomowe eventy z wyborami gg.
   }
 }

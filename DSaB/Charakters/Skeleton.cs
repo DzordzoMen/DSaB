@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DSaB.Charakters {
   class Skeleton {
@@ -10,12 +6,12 @@ namespace DSaB.Charakters {
     public int AttackPower { get; set; }
 
     public Skeleton(int health, int attackPower) {
-      this.Health = health;
-      this.AttackPower = attackPower;
+      Health = health;
+      AttackPower = attackPower;
     }
 
     public void GetDemage(double demage) {
-      Health -= demage;
+      Health -= Convert.ToInt32(demage);
     }
   }
 }

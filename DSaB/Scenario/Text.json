@@ -1,25 +1,26 @@
 ﻿{
 	"tour": [
 		{
-			"text":"Drunk Students and Basement - DSaB\nGra napisane w C okienku przez Macieja Romanowskiego\nNa potrzeby zaliczenia wykładów z Wprowadzenia do Programowania",
+			"text":"Drunk Students and Basement - DSaB\nGra napisane w C okienku przez Macieja Romanowskiego\nNa potrzeby zaliczenia wykładów z Wprowadzenia do Programowania"
 		},{
-			"text":"Wchodzisz do piwnicy w akademiku, pierwszy raz tu jesteś, słyszałeś trochę o tym miejscu, \nale nie były to żadne przyjemne rzeczy. Znajomi wysłali Cię po kolejną butelke, nigdy nie \nwiadomo jak oni znajdują siły na wypicie aż tyle, ale darmowego alkoholu student nie \nodmówi. Powiedzieli, że znajdziesz go na samym końcu korytarza, ale to jest labirynt, nie ma \ntu zasięgu, więc nie masz jak zadzwonić i zapytać o dokładną drogę, choć pewnie w tym \nstanie nie mieli by Ci jej jak przekazać, w sensowny sposób. Próbujesz zaświecić światło,\n nie działa, trudno przynajmniej telefon się do czegoś przyda.",
-		},{
-			"text":"Zaczynasz, idziesz korytarzem, wiele rzeczy leży tu na ziemi butelki, opakowania po\njedzeniu, chyba nawet widziałeś jakieś kości, ale nie chciałeś na to patrzeć, przecież\nstudenci to nie potwory, nie byliby w stanie zrobić czegoś takiego, jesteś tu drugi rok,\nwiedziałbyś jakby o takich rzeczach. Choć mawiają, że jak student głodny to wszystko zrobi\nby było na alkohol  i miał co do buzi włożyć.",
-		},{
+			"text":"Wchodzisz do piwnicy w akademiku, pierwszy raz tu jesteś, słyszałeś trochę o tym miejscu, \nale nie były to żadne przyjemne rzeczy. Znajomi wysłali Cię po kolejną butelke, nigdy nie \nwiadomo jak oni znajdują siły na wypicie aż tyle, ale darmowego alkoholu student nie \nodmówi. Powiedzieli, że znajdziesz go na samym końcu korytarza, ale to jest labirynt, nie ma \ntu zasięgu, więc nie masz jak zadzwonić i zapytać o dokładną drogę, choć pewnie w tym \nstanie nie mieli by Ci jej jak przekazać, w sensowny sposób. Próbujesz zaświecić światło,\n nie działa, trudno przynajmniej telefon się do czegoś przyda."
+	  },{
+			"text":"Zaczynasz, idziesz korytarzem, wiele rzeczy leży tu na ziemi butelki, opakowania po\njedzeniu, chyba nawet widziałeś jakieś kości, ale nie chciałeś na to patrzeć, przecież\nstudenci to nie potwory, nie byliby w stanie zrobić czegoś takiego, jesteś tu drugi rok,\nwiedziałbyś jakby o takich rzeczach. Choć mawiają, że jak student głodny to wszystko zrobi\nby było na alkohol  i miał co do buzi włożyć."
+	  },{
 			"text":"Widzisz jakąś postać w ciemnościach, mała, świecą mu się oczy, może to Marek, wysłali go\nna ostatniej imprezie po alkohol, nie to niemożliwe on był wyższy, ciekawe co się z nim stało.\nMniejsza, muszę iść dalej, mam misję do wykonania, ale co zrobić z tą postacią,\nprzypominasz sobie tę memy które czytałeś na wykładach “Pierwsza rzecz po twojej lewej\nstronie będzie twoją bronią podczas ataku zombie”. Wyciągasz ręke chwytasz pierwszy\nprzedmiot jaki napotkasz, gazeta, chyba jakiś świerszczyk,  nie jest tak, źle zwinę w rulon i\nbroń idealna, na samym końcu jest twarz jakiejś modelki, czy to Sasha Grey? Nazwę Cię,\n“Pałka penetracji”, nazwa adekwatna do wyglądu.",// mozliwosc przeszukania
-			"item":"Pałka penetracji",// 20pkt ataku // odzielne na itemy, dodac enemy:nazwaPrzeciwnika i tam u niego po pokonaniu wylatuje przedmiot
+			"item":"Pałka penetracji" // 20pkt ataku // odzielne na itemy, dodac enemy:nazwaPrzeciwnika i tam u niego po pokonaniu wylatuje przedmiot
 		},{
-			"text":"Czas stawić czoła pierwszemu przeciwnikowi. Podchodzisz z przerażeniem do postaci, już ją\nprawie widzisz i słyszysz tę słowa które zawsze powtarza tylko jedna osoba “Mam syna w\ngooglach”. Szybko chowasz broń za plecami, i przechodząc dalej, mijasz go i tylko się\nuśmiechasz, chyba Cię nie zauważa. Nie dziwisz się ciężko jest coś zauważyć, gdy światło\nnie działa, dobrze, że masz swój telefon. Bardzo dziwny człowiek,może cały dzień chwalić\nsię swoim synem, a następnego dnia i tak będzie miał co jeszcze o\nnim opowiadać. Chowasz swoją broń do kieszeni, może jeszcze się kiedyś przyda.",
-		},{
-			"text":"Idziesz dalej, widzisz wulgarne napisy na  ścianach, chyba jakiś poeta to pisał, bo wene miał\nnieziemską. Zapamiętujesz tylko parę słów “Na górze róże, na dole fiołki, ja Ci oddam\nwszystkie faworki”, może kiedyś go użyje, albo opublikuje na fejsie, parę lajków nigdy za mało.",
-		},{
+			"text":"Czas stawić czoła pierwszemu przeciwnikowi. Podchodzisz z przerażeniem do postaci, już ją\nprawie widzisz i słyszysz tę słowa które zawsze powtarza tylko jedna osoba “Mam syna w\ngooglach”. Szybko chowasz broń za plecami, i przechodząc dalej, mijasz go i tylko się\nuśmiechasz, chyba Cię nie zauważa. Nie dziwisz się ciężko jest coś zauważyć, gdy światło\nnie działa, dobrze, że masz swój telefon. Bardzo dziwny człowiek,może cały dzień chwalić\nsię swoim synem, a następnego dnia i tak będzie miał co jeszcze o\nnim opowiadać. Chowasz swoją broń do kieszeni, może jeszcze się kiedyś przyda."
+	  },{
+			"text":"Idziesz dalej, widzisz wulgarne napisy na  ścianach, chyba jakiś poeta to pisał, bo wene miał\nnieziemską. Zapamiętujesz tylko parę słów “Na górze róże, na dole fiołki, ja Ci oddam\nwszystkie faworki”, może kiedyś go użyje, albo opublikuje na fejsie, parę lajków nigdy za mało."
+	  },{
 			"text":"Podążasz dalej korytarzem, skręcasz w prawo i widzisz zielonoskórą przypominającą\nczłowieka postać. Grałeś w gry gdzie występowały takie stworzenia znane jako orkowie,\nplugawe stworzenia, nigdy ich nie lubiłeś, brzydko pachną, a na dodatek się nie myją, możę\nto od tego ten brzydki zapach. Ale skąd możesz to wiedzieć. Czas Rozdziewiczyć twoją\n“Pałkę penetracji” czekała na ten moment od paru minut, czujesz jakby była do tego\nstworzona, ręka już się gotuje by zadać pierwszy cios.",
-		},{
+      "enemy":"Orc"
+	  },{
 			"text":"Niby prawiczek, ale zawsze wiedziałeś, że jest w tobie moc. Lata pucowania rakiety nie\nposzły na marne. Pora zebrać nagrodę za pokonanie tego niegodziwego stwora, zawsze jak\ngrałeś w gry to zbieranie przedmiotów z przeciwnika wyglądało bardzo łatwo, przecież w\nreal’u musi to wyglądać podobnie. Czas zacząć, jak do tego się zabrać, może ma coś w\nubraniach, pierwsza kieszeń, coś lepkiego, zostawie to tam, zaglądasz do drugiej, pusta,\nmoże w środku kurtki będzie coś wartościowego. Podnosisz kawałek kurtki i wkładasz ręke\ndo środka, macasz z obrzydzeniem, przecież to ork jak można takie coś dotykać, matka go\npewnie puściła w koszyku z nurtem rzeki. Czujesz coś w środku to chyba kawałek jedzenia,\nzawsze coś. Wyciągasz kawałek kanapki, wygląda dobrze, zostawie na później.\nZdobyłeś kanapkę z wnętrza orka, dziwnie pachnie i wygląda jakby była pokryta kurzem, ale\nregeneruje zdrowie do 100%. I zapewnia nieświeży oddech, jesteś studentem więc nic nie zmieni.",
-			"item":"Kanapka z wnętrza orka",
-		},{
-			"text":"Czas wyruszyć dalej, zostawiasz swojego poległego przeciwnika za sobą, po przejściu\nkilkunastu metrów, uświadamiasz sobie, że ta piwnica jest większa niż się mogło wydawać.\nPewnie jesteś już blisko swojego celu, widzisz jak coś świeci na końcu korytarza, gdzie ja\njestem. Zawsze w filmach mówili by nie iść w stronę światła, ale jak się cofniesz to tylko\nzostaniesz wyśmiany przez innych, a to gorsze, raz się żyje idę.",
-		}
-	], // inny plik i tam klucze to nazwy np szkielet
+			"item":"Kanapka z wnętrza orka"
+	  },{
+			"text":"Czas wyruszyć dalej, zostawiasz swojego poległego przeciwnika za sobą, po przejściu\nkilkunastu metrów, uświadamiasz sobie, że ta piwnica jest większa niż się mogło wydawać.\nPewnie jesteś już blisko swojego celu, widzisz jak coś świeci na końcu korytarza, gdzie ja\njestem. Zawsze w filmach mówili by nie iść w stronę światła, ale jak się cofniesz to tylko\nzostaniesz wyśmiany przez innych, a to gorsze, raz się żyje idę."
+	  }
+	] // inny plik i tam klucze to nazwy np szkielet
 }

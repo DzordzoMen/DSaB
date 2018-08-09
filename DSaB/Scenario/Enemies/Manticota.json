@@ -1,20 +1,15 @@
 {
-  "manticota":[
-    {
-      "hp":120,
-      "attack":30,
-      "drop":[
-        {
-          "item":"Ząb mantikoty",
-          "attribute":null
-        },{
-          "item":"Strzępki ubrań",
-          "attribute":null
-        },{
-          "item":"Kości",
-          "attribute":null
-        }
-      ]
-    }
-  ]
+  "Name":"manticota",    
+  "Hp":120,
+  "Attack":30,
+  "Drop":[{
+    "Item":"Ząb mantikoty",
+    "Attribute":null
+  },{
+    "Item":"Strzępki ubrań",
+    "Attribute":null
+  },{
+    "Item":"Kości",
+    "Attribute":null
+  }]
 }

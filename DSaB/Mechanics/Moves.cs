@@ -52,10 +52,9 @@ namespace DSaB.Mechanics {
     }
 
     private void CheckIfUserWantExit(string check) {
-      if (check == "3") {
-        Console.ReadKey();
-        System.Environment.Exit(0);
-      }
+      if (check != "3") return;
+      Console.ReadKey();
+      System.Environment.Exit(0);
     }
   }
 }

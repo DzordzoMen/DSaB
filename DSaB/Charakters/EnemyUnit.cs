@@ -6,27 +6,28 @@ using System.Threading.Tasks;
 
 namespace DSaB.Charakters {
   class EnemyUnit : Skeleton {
-
-    public List<Items> drop { get; set; }
+    public string Name { get; set; }
+    public static List<Items> Drop { get; set; }
 
     public EnemyUnit(int health, int attack) : base(health, attack) {
     }
 
     public bool EnemyDropItem() {
-      if (enemy.drop.Count != 0) return true;
+      if (Drop == null) return false;
+      if (Drop.Count != 0) return true;
       return false;
     }
 
-    public Items ItemFromEnem() {
-      return enemy.drop;
+    public Items ItemFromEnemy() {
+      return EnemyUnit.Drop[0]; // losowanie 0 dane do kompilacji
     } 
 
   }
 
   class Items {
-    public string name { get; set; }
-    public string attribute { get; set; } = null;
-    public int attack { get; set; } = null;
-    public int hp { get; set; } = null;
+    public string Name { get; set; }
+    public string Attribute { get; set; } = null;
+    public int? Attack { get; set; }
+    public int? Hp { get; set; }
   }
 }

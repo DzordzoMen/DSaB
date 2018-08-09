@@ -2,11 +2,12 @@
 
 namespace DSaB.Scenario {
   public class HelpText {
-    public List<HelpTextData> tour { get; set; }
+    public List<HelpTextData> Tour { get; set; }
   }
 
   public class HelpTextData {
-    public string text { get; set; }
-    public string item { get; set; } = null;
+    public string Text { get; set; }
+    public string Item { get; set; } = null;
+    public string Enemy { get; set; } = null;
   }
 }

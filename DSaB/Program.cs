@@ -8,7 +8,7 @@ namespace DSaB {
       Hero myCharacter = new Hero(100, 20);
       Moves move = new Moves();
       Text tour = new Text();
-      ReadJson read = new ReadJson();
+      ReadJson read = new ReadJson(myCharacter);
 
       int tourNumber = 0; // zwiekszac gdy bedzie 1 i zwracać, a moze dac to w moves
       // dodac uzywanie eq, [Hard]

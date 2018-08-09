@@ -1,22 +1,17 @@
 {
-  "orc":[
-    {
-      "hp":80,
-      "attack":10,
-      "drop":[
-        {
-          "item":"Ząb orka",
-          "attribute":null
-        },{
-          "item":"Kanapka",
-          "attribute":"Leczy 20hp",
-          "hp":20
-        },{
-          "item":"Miecz orka",
-          "attribute":"Obrażenia 10",
-          "attack":10
-        }
-      ]
-    }
-  ]  
+  "Name":"orc",
+  "Health":80,
+  "AttackPower":10,
+  "Drop":[{
+    "Item":"Ząb orka",
+    "Attribute":null
+  },{
+    "Item":"Kanapka",
+    "Attribute":"Leczy 20hp",
+    "Hp":20
+  },{
+    "Item":"Miecz orka",
+    "Attribute":"Obrażenia 10",
+    "Attack":10
+  }]
 }

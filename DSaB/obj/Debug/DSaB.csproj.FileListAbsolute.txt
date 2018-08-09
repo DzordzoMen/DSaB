@@ -10,3 +10,13 @@ C:/Users/neipr/source/repos/DSaB/DSaB/bin/Debug/Newtonsoft.Json.xml
 C:/Users/neipr/source/repos/DSaB/DSaB/obj/Debug/DSaB.csproj.CopyComplete
 /home/mromanowski/git/dsab/DSaB/obj/Debug/DSaB.exe
 /home/mromanowski/git/dsab/DSaB/obj/Debug/DSaB.pdb
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\obj\Debug\DSaB.csprojAssemblyReference.cache
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\obj\Debug\DSaB.csproj.CoreCompileInputs.cache
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\obj\Debug\DSaB.exe
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\obj\Debug\DSaB.pdb
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\bin\Debug\DSaB.exe.config
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\bin\Debug\DSaB.exe
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\bin\Debug\DSaB.pdb
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mromanowski\source\repos\git\dsab\DSaB\obj\Debug\DSaB.csproj.CopyComplete

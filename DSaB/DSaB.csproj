@@ -59,8 +59,17 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Scenario\Enemies\Example.json" />
+    <None Include="Scenario\Enemies\Manticota.json" />
+    <None Include="Scenario\Enemies\Orc.json" />
+    <None Include="Scenario\Enemies\Skeleton.json" />
     <None Include="Scenario\Fight.json" />
+    <None Include="Scenario\Items\Item.json" />
     <None Include="Scenario\Text.json" />
+    <None Include="Scenario\Text2.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scenario\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

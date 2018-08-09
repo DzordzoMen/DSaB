@@ -1,21 +1,16 @@
 {
-  "skeleton":[
-    {
-      "hp":50,
-      "attack":10,
-      "drop":[
-        {
-          "item":"Kość szkieletu",
-          "attribute":null
-        },{
-          "item":"But szkieletu",
-          "attribute":null
-        },{
-          "item":"Maź szkieleta",
-          "attribute":"Leczy 5hp",
-          "hp":5
-        }
-      ]
-    }
-  ]
+  "Name":"skeleton",
+  "Hp":50,
+  "Attack":10,
+  "Drop":[{
+    "Item":"Kość szkieletu",
+    "Attribute":null
+  },{
+    "Item":"But szkieletu",
+    "Attribute":null
+  },{
+    "Item":"Maź szkieleta",
+    "Attribute":"Leczy 5hp",
+    "Hp":5
+  }]
 }
