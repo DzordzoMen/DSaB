@@ -3,14 +3,14 @@
   "Health":80,
   "AttackPower":10,
   "Drop":[{
-    "Item":"Ząb orka",
+    "ItemName":"Ząb orka",
     "Attribute":null
   },{
-    "Item":"Kanapka",
+    "ItemName":"Kanapka",
     "Attribute":"Leczy 20hp",
     "Hp":20
   },{
-    "Item":"Miecz orka",
+    "ItemName":"Miecz orka",
     "Attribute":"Obrażenia 10",
     "Attack":10
   }]

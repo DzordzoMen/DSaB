@@ -30,7 +30,7 @@ namespace DSaB.Mechanics {
     }
 
     private string Move(string playerChoose) {
-      int switchCase = 0;
+      int switchCase;
       try {
         switchCase = int.Parse(playerChoose);
       } catch {
