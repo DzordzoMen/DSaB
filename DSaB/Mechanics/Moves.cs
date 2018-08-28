@@ -15,7 +15,7 @@ namespace DSaB.Mechanics {
       Console.WriteLine("1. Iść dalej");
       Console.WriteLine("2. Poczekać na ratunek"); // to też dodać do innego pliku json
       Console.WriteLine("3. Poddać się i pić dalej imprezować");
-      Console.WriteLine("4. Tu bedzie eq, cala logika w innych metodach");
+      Console.WriteLine("4. Zobacz co znajduję się w twoim ekwipunku");
       Console.WriteLine();
     }
 
@@ -54,7 +54,7 @@ namespace DSaB.Mechanics {
     private void CheckIfUserWantExit(string check) {
       if (check != "3") return;
       Console.ReadKey();
-      System.Environment.Exit(0);
+      Environment.Exit(0);
     }
   }
 }
